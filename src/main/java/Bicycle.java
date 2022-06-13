@@ -1,4 +1,4 @@
-public class Car implements Vehicle  {
+public class Bicycle implements Vehicle {
 
     @Override
     public void drive() {
