@@ -1,16 +1,16 @@
 public class Engine {
-    private boolean turnOnOff;
+    private boolean isOn;
 
-    public Engine(boolean turnOnOff) {
-        this.turnOnOff = turnOnOff;
+    public Engine(boolean isOn) {
+        this.isOn = isOn;
     }
 
-    public boolean isTurnOnOff() {
-        return turnOnOff;
+    public boolean isOn() {
+        return isOn;
     }
 
-    public void setTurnOnOff(boolean turnOnOff) {
-        this.turnOnOff = turnOnOff;
+    public void setIsON(boolean isOn) {
+        this.isOn = isOn;
     }
 
 }
